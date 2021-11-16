@@ -35,6 +35,195 @@
         <p> <strong> water equation: </strong> h <sub>2</sub> o </p>
 
         <p> This is use to go to the <br>  next line. </p>
+        
+        <p> HTML lists Ol means Ordered List and ul means unordered list</p>
+        <ol> 
+            <li> A Product 
+                <ol type="a">
+                    <li> <img src="images/html.jpg" alt="html" title="html" width="30px" height="20px"Product /> AA Product </li>
+                    <li> <a href="https://www.baps.org/" target="_blank"> AB Product </a> </li>
+                    <li> AC Product </li>
+                </ol>
+            </li>
+            <li> B Product </li>
+            <li> C Product </li>
+            <li> D Product </li>
+        </ol>
+
+        <ul>
+            <li> A Product </li>
+            <li> B Product </li>
+            <li> C Product </li>
+        </ul>
+
+        <ol type="1">
+            <li> A Product </li> 
+            <li> B Product </li>
+            <li> C Product </li>
+            <li> D Product </li>
+        </ol>
+
+        <p> Definition List </p>
+
+        <dl> 
+            <dt> What is dl means ? </dt>
+            <dd> dl means Definition List. </dd>
+        </dl>
+
+        <dl> 
+            <dt> What is dt means ? </dt>
+            <dd> dt means Definition term. </dd>
+        </dl>
+
+        <dl> 
+            <dt> What is dd means ? </dt>
+            <dd> dl means Definition data. </dd>
+        </dl>
+        
+        <hr>
+
+        <table border=2px>
+            <tr>
+                <th> Country </th>
+            </tr>
+            <tr>
+                <td> India </td>
+            </tr>
+            <tr>
+                <td> Canada </td>
+            </tr>
+            <tr>
+                <td> United States </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <table border=3px>
+            <tr>
+                <th colspan="5"> Country and short codes colspan </th>
+            </tr>
+            <tr>
+                <th> rowspan </th>
+                <th> Country </th>
+                <th> Code </th>
+                <th> Currency </th>
+                <th> Flag </th>
+            </tr>
+            <tr>
+                <th rowspan="4"> Country and short codes rowspan </th>
+            </tr>
+            <tr>
+                <td> India </td>
+                <td> IND </td>
+                <td> <a href="https://en.wikipedia.org/wiki/Indian_rupee" target="_blank" > INR </a> </td>
+                <td> <img src="images/india_flag.jpg" alt="india_flag" title="india_flag" width="40px" height="20px"/> </td>
+            <tr>
+                <td> United States </td>
+                <td> USA </td>
+                <td> <a href="https://en.wikipedia.org/wiki/United_States_dollar" target="_blank"> USD </a> </td>
+                <td> <img src="images/usa_flag.jpg" alt="usa_flag" title="usa_flag" width="40px" heigh="20px" /> </td>
+            </tr>
+            <tr>
+                <td> Canada </td>
+                <td> CAN </td>
+                <td> <a href="https://en.wikipedia.org/wiki/Canadian_dollar" target="_blank"> CAD </a> </td>
+                <td> <img src="images/Canada Flag.jpg" alt="canada_flag" title="canada_flag" width="40px" heigh="20px" /> </td>
+            </tr>
+        </table>
+        
+        <hr>
+
+        <form>
+            <table border="2px">
+                <tr>
+                    <th colspan="2"> User registration </th>
+                </tr>
+                <tr>
+                    <th colspan="2"> * fill in the details </th>
+                </tr>
+                <tr>
+                    <td> First Name </td>
+                    <td> <input type="text" name="first_name" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Last Name </td>
+                    <td> <input type="text" name="last_name" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Email Address </td>
+                    <td> <input type="email" name="email_adress" value=""/> </td>
+                </tr>
+                <tr> 
+                    <td> Phone Number </td>
+                    <td> <input type="text" name="phone_number" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Password </td>
+                    <td> <input type="password" name="password" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Date of Birth </td>
+                    <td> <input type="date" name="date_of_birth" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Age </td>
+                    <td> <input type="number" name="age" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> url </td>
+                    <td> <input type="url" name="url" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Gender </td>
+                    <td> 
+                        <input type="radio" name="gender" value="male"/> Male <br>
+                        <input type="radio" name="gender" value="female"/> Female 
+                    </td>
+                </tr>
+                <tr>
+                    <td> Language </td>
+                    <td> 
+                        <input type="checkbox" name="language[]" value="english"/> English <br>
+                         <input type="checkbox" name="language[]" value="hindi"/> Hindi <br>
+                         <input type="checkbox" name="language[]" value="spanish"/> Spanish <br>
+                         <input type="checkbox" name="language[]" value="other"/> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td> Country </td>
+                    <td> 
+                        <select name="country"> 
+                            <option value=""> select your country </option>
+                            <option value="india"> India </option>
+                            <option value="united_states"> United States </option>
+                            <option value="canada"> Canada </option>
+                            <option value="other"> Other </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Country Flag </td>
+                    <td>
+                        <input type="checkbox" name="india_flag" value="india_flag"/> <img src="images/india_flag.jpg" alt="india_flag" title="india_flag" width="20px" height="10px" /> <br>
+                        <input type="checkbox" name="usa_flag" value="usa_flag"/> <img src="images/usa_flag.jpg" alt="usa_flag" title="usa_flag" width="20px" height="10px" /> <br>
+                        <input type="checkbox" name="canada_flag" value="canada_flag"/> <img src="images/Canada Flag.jpg" alt="canada_flag" title="canada_flag" width="20px" height="10px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td> color </td>
+                    <td> <input type="color" name="color" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Upload File </td>
+                    <td> <input type="file" name="upload_file" value=""/> </td>
+                </tr>
+                <tr>
+                    <td> Date and Time </td>
+                    <td> <input type="datetime-local" name="date_and_time" value=""/> </td>
+                </tr>
+            </table>
+        </form>
     </body>
 
 </html>
